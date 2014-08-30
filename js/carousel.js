@@ -3,7 +3,8 @@
 ------------------------------------------|
 Module: Basic Responsive Carousel.
 Author: Michalis Tsougkranis.
-Technique: OOP-Module-Pattern.
+Technique:[Augmenting Modules] OOP-Module-Pattern && Object literal .
+Special Thenx to: GEORGE BARDIS
 -------------------------------------------|
 -------------------------------------------|
 */
@@ -21,7 +22,6 @@ var basicResposiveCarousel = (function($,window, document, undefined ) {
       animationVelocity : 1000,
       timeout: 0,
 
-
       trigerBasicFunctionality: function(){//Triger functionality
           rCarousel.clickPrev();
           rCarousel.clickNext();      
@@ -38,7 +38,6 @@ var basicResposiveCarousel = (function($,window, document, undefined ) {
       clickPrev: function(){
         $('.prev').click(function(){//Prev Click 
             rCarousel.executePrevSlide();
-
         });
       },
       windowResize: function(){
@@ -143,7 +142,7 @@ var basicResposiveCarousel = (function($,window, document, undefined ) {
    
 })( jQuery, window, document);
 
-
+//RESPONSIVE IMPLEMENTATION
 
 var infinity = (function(basicResposiveCarousel) { 
     // The below methos are been overide from the initial object basicResposiveCarousel
