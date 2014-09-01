@@ -3,7 +3,7 @@
 ------------------------------------------|
 Module: Basic Responsive Carousel.
 Author: Michalis Tsougkranis.
-Technique:[Augmenting Modules] OOP-Module-Pattern && Object literal .
+Technique:OOP-Module-Pattern && Revealing Module.
 Special Thenx to: GEORGE BARDIS
 -------------------------------------------|
 -------------------------------------------|
